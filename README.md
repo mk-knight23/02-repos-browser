@@ -43,10 +43,9 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 
 ---
 
-## 🧩 Featured Categories
+## 🎨 HTML, CSS, and JavaScript Projects
 
-<details>
-<summary>🎨 <b>HTML, CSS, and JavaScript Projects</b></summary>
+A collection of my early and intermediate projects built using vanilla web technologies — exploring interactivity, games, and UI designs.
 
 | Project | Description |
 |----------|--------------|
@@ -61,12 +60,11 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 | [APTI-CAL](https://github.com/mk-knight23/APTI-CAL) | Aptitude calculator and problem-solving web tool. |
 | [MK23](https://github.com/mk-knight23/MK23) | Experimental frontend project for animations & effects. |
 
-</details>
-
 ---
 
-<details>
-<summary>🧩 <b>HTML, CSS, and JS Templates (Reusable Designs)</b></summary>
+## 🧩 HTML, CSS, and JS Templates (Reusable Designs)
+
+Pre-built responsive templates you can easily reuse for personal or business projects.
 
 - [Theory-Web](https://github.com/mk-knight23/theory)  
 - [Avalon-Web](https://github.com/mk-knight23/avalon)  
@@ -78,12 +76,11 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 
 ✅ Responsive Design · 🎨 Modern Layout · ⚙️ Ready-to-Use Templates
 
-</details>
-
 ---
 
-<details>
-<summary>⚛️ <b>React Projects</b></summary>
+## ⚛️ React Projects
+
+Modern, component-based projects built with **React.js**, showcasing dynamic functionality, state management, and integration with external APIs.
 
 | Project | Description |
 |----------|--------------|
@@ -96,12 +93,11 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 | [React-drawer-image-upload](https://github.com/mk-knight23/react-drawer-image-upload) | Drawer-style UI for uploading and previewing images. |
 | [electron1](https://github.com/mk-knight23/electron1) | React + Electron desktop app experiments. |
 
-</details>
-
 ---
 
-<details>
-<summary>🌐 <b>Other JavaScript / Framework Projects</b></summary>
+## 🌐 Other JavaScript / Web Framework Projects
+
+Projects exploring advanced JavaScript frameworks, CMSs, and modern web stacks.
 
 - [next-js-e-commerce](https://github.com/mk-knight23/next-js-e-commerce) – E-commerce store built with Next.js  
 - [docusaurus-2](https://github.com/mk-knight23/docusaurus-2) – Documentation website using Docusaurus  
@@ -110,12 +106,11 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 - [AwesomeProject](https://github.com/mk-knight23/AwesomeProject) – React Native demo  
 - [ionic-react](https://github.com/mk-knight23/ionic-react) – Hybrid mobile app using Ionic & React  
 
-</details>
-
 ---
 
-<details>
-<summary>🐍 <b>Python Projects</b></summary>
+## 🐍 Python Projects
+
+Exploring the backend, AI frameworks, and automation through Python.
 
 | Project | Description |
 |----------|--------------|
@@ -125,30 +120,9 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 | [flask-project](https://github.com/mk-knight23/flask-project) | Basic Flask web app. |
 | [django-project](https://github.com/mk-knight23/django-project) | Django web application. |
 
-</details>
-
 ---
 
-<details>
-<summary>☕ <b>Java Projects</b></summary>
-
-- [Java_Practice](https://github.com/mk-knight23/Java_Practice) – Java basics, DSA, and console applications
-
-</details>
-
----
-
-<details>
-<summary>🎓 <b>Capstone Project</b></summary>
-
-- [Capstone-World-app](https://github.com/mk-knight23/Capstone-World-app) – Global information app integrating multiple APIs and UI layers.
-
-</details>
-
----
-
-<details>
-<summary>🌍 <b>Forked & Collaborative Repositories</b></summary>
+## 🌍 Forked & Collaborative Repositories
 
 Includes open-source and learning contributions:
 - [Movie-Recommendation-System](https://github.com/mk-knight23/Movie-Recommendation-System)
@@ -157,12 +131,9 @@ Includes open-source and learning contributions:
 - [50projects50days](https://github.com/mk-knight23/50projects50days)
 - [BlogVlog](https://github.com/mk-knight23/BlogVlog)
 
-</details>
-
 ---
 
-<details>
-<summary>🎉 <b>Hacktoberfest & Demo Repositories</b></summary>
+## 🎉 Hacktoberfest & Demo Repositories
 
 Fun experiments and learning projects:
 - [Hacktoberfest2022-1](https://github.com/mk-knight23/Hacktoberfest2022-1)
@@ -171,8 +142,6 @@ Fun experiments and learning projects:
 - [demo1](https://github.com/mk-knight23/demo1)
 - [demo4](https://github.com/mk-knight23/demo4)
 - [hack2](https://github.com/mk-knight23/hack2)
-
-</details>
 
 ---
 
