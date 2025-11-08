@@ -1,8 +1,4 @@
-<!-- 🛡️ MK Knight Kazi — GitHub Profile README -->
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Knight.png" alt="Knight" width="120" height="120" />
-</div>
+<!-- 🛡️ MK Knight Kazi — The Ultimate GitHub Profile README -->
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
@@ -10,170 +6,541 @@
   </a>
 </h1>
 
----
-
-## 📋 About This Repository
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Knight.png" alt="Knight" width="120" height="120" />
+</p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bookmark.png" alt="Bookmark" width="80" height="80" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=18&duration=3000&pause=500&center=true&vCenter=true&multiline=true&width=800&height=60&lines=Full+Stack+Developer+%7C+AI+SaaS+Builder+%7C+Open+Source+Enthusiast;Python+%7C+JavaScript+%7C+React+%7C+Next.js+%7C+Node.js+%7C+AI/ML" alt="Tech Stack" />
+  </a>
 </div>
 
-### 🌟 Repository Overview
+---
 
-This repository serves as my **digital portfolio and professional showcase** - a comprehensive collection of my work, projects, and contributions to the tech community. It's more than just a GitHub profile; it's a living document of my journey as a developer, designer, and AI enthusiast.
+## 🌟 About Me
 
-### 🎯 Purpose & Vision
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="800">
+</div>
 
-I created this repository to:
+I'm **Musharraf Kazi (MK Knight)**, a passionate **Full Stack Developer** and **AI SaaS Builder** from India. I specialize in creating innovative digital solutions that bridge the gap between cutting-edge technology and practical applications. My journey in tech is driven by curiosity, innovation, and a relentless pursuit of excellence.
 
-- **📊 Showcase My Technical Journey** - From beginner projects to advanced AI SaaS products
-- **🔗 Provide Centralized Access** - One place to explore all my work across different platforms
-- **📚 Document My Growth** - Track my evolution as a developer over time
-- **🤝 Connect with the Community** - Make it easy for collaborators and employers to reach me
-- **🚀 Inspire Others** - Share my knowledge and experiences to help fellow developers
+> 💡 *"In the world of code, every line is a possibility, every project a new adventure, and every challenge an opportunity to innovate."*
 
-### 🏗️ Repository Structure
+### 🎯 My Mission
+- 🚀 Building scalable, user-centric applications that solve real-world problems
+- 🤖 Pioneering the future of AI-powered SaaS products
+- 🌍 Contributing to open-source projects that empower developers worldwide
+- 📚 Continuously learning and sharing knowledge with the tech community
 
-This repository is organized into several key sections:
+---
 
-- **🤖 AI SaaS Products** - My cutting-edge artificial intelligence applications and tools
-- **💼 Portfolio Websites** - Personal and professional web development projects
-- **🎨 Frontend Projects** - HTML, CSS, and JavaScript experiments and applications
-- **⚛️ React Applications** - Modern component-based web applications
-- **🐍 Python Projects** - Backend development, automation, and machine learning
-- **🌍 Open Source Contributions** - Forked repositories and collaborative projects
-- **🎉 Hacktoberfest & Demos** - Event participation and experimental projects
+## 📊 GitHub Analytics & Achievements
 
-### 📈 Repository Statistics
+<div align="center">
+  <img height="200" src="https://github-readme-stats.vercel.app/api?username=mk-knight23&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9&custom_title=MK+Knight's+GitHub+Statistics" alt="GitHub Stats" />
+  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-knight23&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&text_color=C9D1D9" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mk-knight23&theme=radical&hide_border=true&background=0D1117&stroke=FF6B6B&ring=FF6B6B&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mk-knight23&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mk-knight23&theme=radical&hide_border=true&bg_color=0D1117&color=FF6B6B&line=FF6B6B&point=C9D1D9&area=true&radius=8" alt="Activity Graph" />
+</div>
+
+---
+
+## 🛠️ Tech Stack & Arsenal
+
+### 🌐 Frontend Mastery
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,angular,tailwind,bootstrap,sass,materialui,webpack,figma" alt="Frontend Skills" />
+</div>
+
+### 🔧 Backend Excellence
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,flask,java,spring,php,go,rust,graphql,rest,apollo" alt="Backend Skills" />
+</div>
+
+### 🗄️ Database & Storage
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,redis,sqlite,firebase,supabase,prisma,dynamodb,elasticsearch" alt="Database Skills" />
+</div>
+
+### ☁️ Cloud & DevOps
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,vercel,netlify,heroku,docker,kubernetes,jenkins,githubactions,terraform,ansible" alt="Cloud Skills" />
+</div>
+
+### 🤖 AI & Machine Learning
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,fastapi,langchain,openai,huggingface,mlflow,kafka,spark" alt="AI Skills" />
+</div>
+
+### 📱 Mobile & Cross-Platform
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=reactnative,flutter,swift,kotlin,ionic,xamarin,cordova" alt="Mobile Skills" />
+</div>
+
+### 🛠️ Tools & Platforms
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,postman,linux,ubuntu,debian,windows,macos,chrome,firefox" alt="Tools" />
+</div>
+
+---
+
+## 🤖 AI SaaS Products Showcase
+
+<div align="center">
+  <h2>🚀 AI-Powered Innovation Lab</h2>
+  <p>Transforming ideas into intelligent solutions with cutting-edge AI technology</p>
+</div>
+
+### 🌟 Featured AI Products
 
 <div align="center">
   <table>
     <tr>
-      <td width="25%">
+      <td width="50%">
         <div align="center">
-          <h3>📂 Total Projects</h3>
-          <p style="font-size: 36px; font-weight: bold; color: #FF6B6B;">100+</p>
+          <a href="https://github.com/mk-knight23/vibe-main">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=vibe-main&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="vibe-main" width="400" />
+          </a>
+          <p>
+            <a href="https://vibe-main.vercel.app">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+            <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+            <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+          </p>
+          <p><strong>Vibe</strong> - AI-powered mood analysis and content recommendation platform that adapts to user emotional states and preferences.</p>
         </div>
       </td>
-      <td width="25%">
+      <td width="50%">
         <div align="center">
-          <h3>🔗 Live Demos</h3>
-          <p style="font-size: 36px; font-weight: bold; color: #FF6B6B;">80+</p>
+          <a href="https://github.com/mk-knight23/Chatgpt-Clone">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=Chatgpt-Clone&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Chatgpt-Clone" width="400" />
+          </a>
+          <p>
+            <a href="https://v0-clone-chat-gpt-app-eta.vercel.app">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+            <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+            <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+          </p>
+          <p><strong>ChatGPT Clone</strong> - Full-featured conversational AI interface with advanced prompt engineering and response customization.</p>
         </div>
       </td>
-      <td width="25%">
+    </tr>
+    <tr>
+      <td width="50%">
         <div align="center">
-          <h3>🌟 Technologies</h3>
-          <p style="font-size: 36px; font-weight: bold; color: #FF6B6B;">30+</p>
+          <a href="https://github.com/mk-knight23/hierarchical-rag-beps">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=hierarchical-rag-beps&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="hierarchical-rag-beps" width="400" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/hierarchical-rag-beps">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+            <img src="https://img.shields.io/badge/LangChain-FF6B35?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+            <img src="https://img.shields.io/badge/Pinecone-111111?style=flat-square&logo=pinecone&logoColor=white" alt="Pinecone" />
+          </p>
+          <p><strong>Hierarchical RAG BEPS</strong> - Advanced Retrieval-Augmented Generation system with hierarchical document processing for enterprise knowledge management.</p>
         </div>
       </td>
-      <td width="25%">
+      <td width="50%">
         <div align="center">
-          <h3>📚 Categories</h3>
-          <p style="font-size: 36px; font-weight: bold; color: #FF6B6B;">7</p>
+          <a href="https://github.com/mk-knight23/gpt-clone-app">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=gpt-clone-app&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="gpt-clone-app" width="400" />
+          </a>
+          <p>
+            <a href="https://gpt-clone-app.lovable.app">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=lovable&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+            <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+            <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+          </p>
+          <p><strong>GPT Clone App</strong> - Streamlined AI conversation interface with custom model fine-tuning and conversation history management.</p>
         </div>
       </td>
     </tr>
   </table>
 </div>
 
-### 🛠️ Technologies Featured
-
-This repository showcases projects built with a diverse range of technologies:
-
-#### 🌐 Frontend Technologies
-- **JavaScript Frameworks**: React, Next.js, Vue.js, Angular
-- **Styling**: CSS3, SASS, Tailwind CSS, Bootstrap, Material-UI
-- **Build Tools**: Webpack, Vite, Parcel
-- **Design**: Figma, Adobe XD, Canva
-
-#### 🔧 Backend Technologies
-- **Languages**: Python, JavaScript (Node.js), Java, PHP, Go
-- **Frameworks**: Express.js, Django, Flask, Spring Boot
-- **APIs**: REST, GraphQL, gRPC
-- **Databases**: MySQL, MongoDB, PostgreSQL, Redis, SQLite
-
-#### ☁️ Cloud & DevOps
-- **Cloud Platforms**: AWS, Google Cloud, Azure, Vercel, Netlify
-- **Containerization**: Docker, Kubernetes
-- **CI/CD**: GitHub Actions, Jenkins, Travis CI
-- **Infrastructure as Code**: Terraform, Ansible
-
-#### 🤖 AI & Machine Learning
-- **Frameworks**: TensorFlow, PyTorch, Scikit-learn
-- **NLP**: NLTK, spaCy, LangChain, OpenAI API
-- **Computer Vision**: OpenCV, Pillow
-- **Data Processing**: Pandas, NumPy, Apache Spark
-
-### 📊 Repository Insights
+### 🧠 AI Tools & Utilities
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mk-knight23/mk-knight23/main/repository-insights.png" alt="Repository Insights" width="800">
+  <table>
+    <tr>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/NLP-Pipeline">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=NLP-Pipeline&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="NLP-Pipeline" width="350" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/NLP-Pipeline">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+            <img src="https://img.shields.io/badge/NLTK-0096D6?style=flat-square&logo=nltk&logoColor=white" alt="NLTK" />
+          </p>
+          <p><strong>NLP Pipeline</strong> - Comprehensive natural language processing toolkit for text analysis, sentiment detection, and entity recognition.</p>
+        </div>
+      </td>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/technology-roadmaps-app">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=technology-roadmaps-app&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="technology-roadmaps-app" width="350" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/technology-roadmaps-app">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+            <img src="https://img.shields.io/badge/GPT-412991?style=flat-square&logo=openai&logoColor=white" alt="GPT" />
+          </p>
+          <p><strong>Tech Roadmaps</strong> - AI-powered learning path generator that creates personalized technology roadmaps.</p>
+        </div>
+      </td>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/Crazy">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=Crazy&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Crazy" width="350" />
+          </a>
+          <p>
+            <a href="https://crazy-three.vercel.app">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+            <img src="https://img.shields.io/badge/Creative_AI-FF6B35?style=flat-square&logo=idea&logoColor=white" alt="Creative AI" />
+          </p>
+          <p><strong>Crazy</strong> - Creative AI content generator that produces unconventional ideas and solutions.</p>
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 
-### 🔄 Maintenance & Updates
+### ⚙️ AI Automation & Workflow Solutions
 
-This repository is actively maintained with:
-
-- **📅 Regular Updates** - New projects are added as they're completed
-- **🔗 Live Links** - All demo links are regularly checked and updated
-- **📝 Documentation** - Project descriptions are kept current and detailed
-- **🏷️ Tagging** - Projects are properly categorized and tagged for easy navigation
-- **🐛 Issue Resolution** - Any reported issues are addressed promptly
-
-### 🤝 How to Use This Repository
-
-#### For Recruiters & Hiring Managers
-- Use the **Tech Stack** section to quickly assess my technical capabilities
-- Browse the **Featured Projects** to see my best work
-- Check the **AI SaaS** section for my most advanced and recent work
-- Follow the **Live Demo** links to experience my applications firsthand
-
-#### For Fellow Developers
-- Explore the **Open Source** section for collaboration opportunities
-- Check the **Learning Resources** in project READMEs for educational content
-- Use the **Quick Start Guide** to run any project locally
-- Fork interesting projects and contribute to their development
-
-#### For Students & Learners
-- Browse projects by **difficulty level** (beginner to advanced)
-- Use the **Documentation** sections as learning resources
-- Follow the **Tutorial Projects** for step-by-step learning
-- Check the **Blog & Publications** section for in-depth articles
-
-### 📜 License & Usage
-
-All projects in this repository are licensed under the MIT License unless otherwise specified in individual project READMEs. This means:
-
-- ✅ **Commercial Use** - You can use these projects in commercial applications
-- ✅ **Modification** - You can modify and adapt the code to your needs
-- ✅ **Distribution** - You can distribute your modifications
-- ✅ **Private Use** - You can use the code privately
-- ⚠️ **Liability** - The software is provided "as is" without warranty
-- ⚠️ **Attribution** - Include the original copyright and license notice
-
-### 📞 Questions & Feedback
-
-I welcome questions, feedback, and suggestions about this repository:
-
-- 🐛 **Report Issues** - Use the GitHub Issues tab for bug reports
-- 💡 **Feature Requests** - Suggest improvements or new features
-- 📧 **Direct Contact** - Reach out via email or social media for general inquiries
-- 🤝 **Collaboration** - Interested in contributing? Let's discuss how we can work together
-
-### 🙏 Acknowledgments
-
-This repository wouldn't be possible without:
-
-- The **Open Source Community** for providing tools and libraries that power these projects
-- **Mentors and Colleagues** who provided guidance and feedback throughout my journey
-- **Friends and Family** for their unwavering support and encouragement
-- **GitHub** for providing an excellent platform to host and showcase my work
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/N8n_Automations">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=N8n_Automations&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="N8n_Automations" width="400" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/N8n_Automations">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/N8n-FF6B35?style=flat-square&logo=n8n&logoColor=white" alt="N8n" />
+            <img src="https://img.shields.io/badge/Workflow_Automation-0096D6?style=flat-square&logo=automation&logoColor=white" alt="Workflow Automation" />
+          </p>
+          <p><strong>N8n Automations</strong> - AI-powered workflow automations with intelligent decision-making capabilities.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/Make_Automations">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=Make_Automations&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Make_Automations" width="400" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/Make_Automations">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+            <img src="https://img.shields.io/badge/Make-FF6B35?style=flat-square&logo=make&logoColor=white" alt="Make" />
+            <img src="https://img.shields.io/badge/Business_Process_Automation-0096D6?style=flat-square&logo=workflow&logoColor=white" alt="Business Process Automation" />
+          </p>
+          <p><strong>Make Automations</strong> - Advanced automation scenarios with AI-enhanced decision nodes.</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
+## 💼 Featured Portfolio Websites
+
 <div align="center">
-  <h3>🚀 Explore My Digital Universe! 🚀</h3>
-  <p>Thank you for visiting my profile repository. I hope you find my work inspiring and valuable.</p>
-  <p>Feel free to reach out, collaborate, or simply explore the projects that catch your interest!</p>
+  <h2>🎨 Web Development Showcase</h2>
+  <p>Responsive designs, modern architectures, and exceptional user experiences</p>
 </div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/Portfolio-Repos">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=Portfolio-Repos&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Portfolio-Repos" width="400" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/Portfolio-Repos">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Dynamic portfolio site showcasing all key projects with interactive features.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/mk-portfolio">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=mk-portfolio&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="mk-portfolio" width="400" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/mk-portfolio">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Original portfolio website with clean, responsive layout and modern design.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/mktech">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=mktech&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="mktech" width="400" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/mktech">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Modern, tech-themed portfolio with animations and project highlights.</p>
+        </div>
+      </td>
+      <td width="50%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/next-js-e-commerce">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=next-js-e-commerce&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="next-js-e-commerce" width="400" />
+          </a>
+          <p>
+            <a href="https://next-js-e-commerce.vercel.app">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Full-stack e-commerce platform with Next.js and modern web technologies.</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🎨 HTML, CSS, and JavaScript Projects
+
+<div align="center">
+  <h2>🌟 Vanilla Web Development</h2>
+  <p>Creative projects built with pure web technologies</p>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="25%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/mk3">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=mk3&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Car-Game" width="300" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/mk3">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Car Racing Game</p>
+        </div>
+      </td>
+      <td width="25%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/typing12">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=typing12&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Typing-Web" width="300" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/typing12">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Typing Speed Test</p>
+        </div>
+      </td>
+      <td width="25%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/imdbApi">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=imdbApi&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="IMDB-WEB" width="300" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/imdbApi">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>IMDB Movie Database</p>
+        </div>
+      </td>
+      <td width="25%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/DATA-ENTRY">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=DATA-ENTRY&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="DATA-ENTRY" width="300" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/DATA-ENTRY">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Data Entry System</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## ⚛️ React Projects
+
+<div align="center">
+  <h2>⚛️ React Ecosystem</h2>
+  <p>Modern component-based applications with React and its ecosystem</p>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/clock">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=clock&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Clock-REACT" width="350" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/clock">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Real-time Clock App</p>
+        </div>
+      </td>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/meme-generator">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=meme-generator&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Meme-Generator" width="350" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/meme-generator">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Meme Generator</p>
+        </div>
+      </td>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/react-food-recipe-master">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=react-food-recipe-master&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Recipe-App" width="350" />
+          </a>
+          <p>
+            <a href="https://mk-knight23.github.io/react-food-recipe-master">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Food Recipe App</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🐍 Python Projects
+
+<div align="center">
+  <h2>🐍 Python & AI/ML</h2>
+  <p>Backend development, data science, and machine learning projects</p>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/Python_Practice">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=Python_Practice&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="Python_Practice" width="350" />
+          </a>
+          <p>
+            <img src="https://img.shields.io/badge/Python_Project-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Project" />
+          </p>
+          <p>Python Practice Problems</p>
+        </div>
+      </td>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/LangChainApp">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=LangChainApp&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="LangChainApp" width="350" />
+          </a>
+          <p>
+            <img src="https://img.shields.io/badge/AI_Project-412991?style=for-the-badge&logo=openai&logoColor=white" alt="AI Project" />
+          </p>
+          <p>LangChain Integration</p>
+        </div>
+      </td>
+      <td width="33%">
+        <div align="center">
+          <a href="https://github.com/mk-knight23/flask-project">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=mk-knight23&repo=flask-project&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B6B&icon_color=FF6B6B&text_color=C9D1D9" alt="flask-project" width="350" />
+          </a>
+          <p>
+            <a href="https://flask-project.onrender.com">
+              <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
+            </a>
+          </p>
+          <p>Flask Web Application</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🧰 Quick Start Guide
+
+<div align="center">
+  <h2>⚡ How to Use My Projects</h2>
+  <p>Quick setup instructions for my repositories</p>
+</div>
+
+```bash
+# Clone any repository
+git clone https://github.com/mk-knight23/<repo-name>.git
+
+# Navigate to project directory
+cd <repo-name>
+
+# Install dependencies (for Node.js projects)
+npm install
+# or for Python projects
+pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your configuration
+
+# Run the project
+npm start          # for Node.js
+python app.py      # for Python
+python manage.py runserver  # for Django
