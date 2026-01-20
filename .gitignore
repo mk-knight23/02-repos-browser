@@ -1,1 +1,12 @@
-.vercel
+node_modules/
+.next/
+.vercel/
+dist/
+build/
+coverage/
+*.log
+.env*
+package-lock.json
+.DS_Store
+Thumbs.db
+.Trash
