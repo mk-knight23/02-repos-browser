@@ -1,73 +1,80 @@
-# portfolio-repo-browser
+# Kazi Musharraf — Full Stack Developer
 
-Portfolio repository browser and explorer interface.
+**Building Scalable End-to-End Applications with React, Node.js & TypeScript**
 
-Part of the MUSHARRAF KAZI portfolio ecosystem for browsing and navigating
-60+ projects across portfolio, web, games, tools, starters, and learning categories.
+---
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-33CCFF?style=for-the-badge&logo=github)](https://mk-knight23.github.io/02-portfolio-fullstack/)
+[![GitHub](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/02-portfolio-fullstack)
 
 ---
 
 ## About
 
-A dedicated interface for exploring the complete portfolio of projects built by
-**MUSHARRAF KAZI** — AI Engineer & Indie Builder specializing in Agentic AI,
-Developer Tools, Multi-LLM Routing, and SaaS Automation.
+Full Stack Developer specializing in React, Node.js, TypeScript, Next.js, PostgreSQL, MongoDB, and REST API design. Currently building the **VIBE Ecosystem** — a multi-product AI developer platform.
+
+**Experience:** Project Engineer (TURBO) at Wipro (Jul 2022 – Present)
 
 ---
 
-## VIBE Ecosystem (Flagship Project)
+## Features
 
-**Founder & AI Engineer**
-
-A multi-product AI developer platform:
-
-- **VIBE CLI** — Multi-agent AI coding tool with TUI, multi-LLM router, execution modes
-- **VIBE VS Code** — IDE-integrated AI assistant with state-machine orchestration
-- **VIBE Web** — Documentation and onboarding hub
-- **VIBE Chat** — AI website builder with generative UI
-
----
-
-## Portfolio Categories
-
-| Category | Count | Description |
-|----------|-------|-------------|
-| Portfolio | 8 | Core portfolio and personal sites |
-| Web | 16 | Web applications and SaaS tools |
-| Games | 10 | Interactive browser games |
-| Tools | 10 | Developer utilities and automation |
-| Starters | 12 | Project templates and boilerplates |
-| Learn | 4 | Practice and learning projects |
-
----
-
-## Quick Links
-
-### Flagship
-- [VIBE Ecosystem](https://github.com/mk-knight23) — Multi-product AI developer platform
-
-### Featured Web Apps
-- [09-web-country-explorer](https://github.com/mk-knight23/09-web-country-explorer) — Country data dashboard
-- [12-web-react-blog](https://github.com/mk-knight23/12-web-react-blog) — Content platform
-- [17-web-recipe-finder](https://github.com/mk-knight23/17-web-recipe-finder) — Recipe discovery
-
-### Developer Tools
-- [36-tool-react-password-generator](https://github.com/mk-knight23/36-tool-react-password-generator) — Password utility
-- [40-tool-react-image-uploader](https://github.com/mk-knight23/40-tool-react-image-uploader) — Image management
+- **Resume & Cover Letter Sections** — Complete professional history and 3-6 month impact plan
+- **VIBE Ecosystem Showcase** — Multi-product AI developer platform overview
+- **Project Browser** — Interactive navigation of 60+ projects
+- **Terminal-style Interface** — Cyber/terminal themed design
+- **Contact & Social Links** — Direct access to GitHub, LinkedIn, and phone
 
 ---
 
 ## Tech Stack
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
+- **Frontend:** React 18, TypeScript, Framer Motion
+- **Styling:** Tailwind CSS (cyber/terminal theme)
+- **Build:** Vite
+- **Deployment:** GitHub Pages
 
 ---
 
-## Connect
+## Deployment
 
-- **Email:** mk.knight970@gmail.com
-- **GitHub:** [@mk-knight23](https://github.com/mk-knight23)
-- **LinkedIn:** [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+| Platform | URL |
+|----------|-----|
+| **GitHub Pages** | [mk-knight23.github.io/02-portfolio-fullstack](https://mk-knight23.github.io/02-portfolio-fullstack/) |
+
+---
+
+## Local Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/mk-knight23/02-portfolio-fullstack.git
+
+# Navigate to project
+cd 02-portfolio-fullstack
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Contact
+
+- **Email:** [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
+- **Phone:** +91 9765490536
+- **GitHub:** [mk-knight23](https://github.com/mk-knight23)
+- **LinkedIn:** [kazi-musharraf-0674871a4](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+- **Location:** Hyderabad, India
+
+---
+
+*Kazi Musharraf — Full Stack Developer — Part of 8-portfolio ecosystem*
+
+*Last Updated: January 2025*
