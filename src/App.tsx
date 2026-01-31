@@ -25,45 +25,131 @@ import {
     CircuitBoard
 } from 'lucide-react';
 
+// vNext: Keyboard shortcuts map
+const keyboardShortcuts: Record<string, string> = {
+    '1': 'hero',
+    '2': 'about',
+    '3': 'vibe',
+    '4': 'work',
+    '5': 'skills',
+    '6': 'resume',
+    '7': 'contact',
+    '?': 'help'
+};
+
+// VIBE Ecosystem Products
 // VIBE Ecosystem Products
 const vibeProducts = [
     {
-        name: 'VIBE CLI',
-        tagline: 'Multi-agent AI coding tool',
-        description: 'Single-command TUI, multi-LLM router, execution modes, security-first approvals.',
+        name: 'AI-VIBE-ChatWeb',
+        tagline: 'Conversational interface',
+        description: 'The primary entry point for human-agent collaboration and documentation.',
+        icon: MessageSquare,
+        status: 'ONLINE'
+    },
+    {
+        name: 'AI-VIBE-WebBuilder',
+        tagline: 'Generative site architect',
+        description: 'AI-driven web application builder that understands design systems.',
+        icon: Globe,
+        status: 'PLANNED'
+    },
+    {
+        name: 'AI-VIBE-CLI',
+        tagline: 'Multi-agent AI coding interface',
+        description: 'Single-command TUI, multi-LLM router, and security-first command execution.',
         icon: Terminal,
         status: 'IN DEV'
     },
     {
-        name: 'VIBE VS Code',
-        tagline: 'Multi-agent IDE assistant',
-        description: 'CLI parity, state-machine orchestration, real-time streaming chat.',
+        name: 'AI-VIBE-Automation',
+        tagline: 'Workflow orchestration engine',
+        description: 'Handling background tasks and cross-platform agent sync.',
+        icon: Zap,
+        status: 'IN DEV'
+    },
+    {
+        name: 'AI-VIBE-VSCode',
+        tagline: 'State-machine IDE assistant',
+        description: 'Deep IDE integration with CLI parity and unified agent toolsets.',
         icon: Code2,
-        status: 'PLANNED'
-    },
-    {
-        name: 'VIBE Web',
-        tagline: 'Documentation hub',
-        description: 'Documentation and onboarding hub for the entire ecosystem.',
-        icon: Globe,
-        status: 'ONLINE'
-    },
-    {
-        name: 'VIBE Chat',
-        tagline: 'AI website builder',
-        description: 'AI web app & website builder powered by generative agents.',
-        icon: MessageSquare,
         status: 'PLANNED'
     }
 ];
 
 // Selected Projects
 const selectedProjects = [
-    { name: 'VIBE Ecosystem', category: 'SYSTEM', tech: 'NEURAL, REACT, NODE', description: 'End-to-end AI developer platform with multi-agent orchestration' },
-    { name: 'Ecommerce Platform', category: 'WEB', tech: 'NEXT.JS, SUPABASE', description: 'Full-stack store with auth, payments, and real-time DB' },
-    { name: 'React Digital Hub', category: 'WEB', tech: 'REACT, API', description: 'Comprehensive dashboard with complex backend integration' },
-    { name: 'Country Explorer', category: 'DATA', tech: 'REACT', description: 'Data-driven exploration dashboard' }
+    {
+        name: 'VIBE Ecosystem',
+        category: 'SYSTEM',
+        tech: 'NEURAL, REACT, NODE',
+        description: 'End-to-end AI developer platform with multi-agent orchestration',
+        // vNext: Case study structure
+        problem: 'Developers need context-aware AI assistance across CLI, IDE, and web interfaces.',
+        solution: 'Built multi-product platform with shared state machine and LLM router.',
+        outcome: '4 products in roadmap, 1 live, competitive analysis across 60 tools.',
+        stars: '—',
+        forks: '—'
+    },
+    {
+        name: 'Ecommerce Platform',
+        category: 'WEB',
+        tech: 'NEXT.JS, SUPABASE',
+        description: 'Full-stack store with auth, payments, and real-time DB',
+        problem: 'Small merchants need simple online presence without monthly fees.',
+        solution: 'Built full-stack platform with Supabase backend, Stripe integration.',
+        outcome: 'Deployed and functional, supports product management and order processing.',
+        stars: '12',
+        forks: '3'
+    },
+    {
+        name: 'React Digital Hub',
+        category: 'WEB',
+        tech: 'REACT, API',
+        description: 'Comprehensive dashboard with complex backend integration',
+        problem: 'Teams need unified dashboard for multiple data sources.',
+        solution: 'Created modular React architecture with API aggregation layer.',
+        outcome: 'Successfully integrates 3 data sources with real-time updates.',
+        stars: '8',
+        forks: '2'
+    },
+    {
+        name: 'Country Explorer',
+        category: 'DATA',
+        tech: 'REACT',
+        description: 'Data-driven exploration dashboard',
+        problem: 'Users need intuitive way to explore country statistics.',
+        solution: 'Built React dashboard with REST API integration and data visualization.',
+        outcome: 'Clean UI, fast load times, mobile-responsive.',
+        stars: '5',
+        forks: '1'
+    }
 ];
+
+// vNext: Skills by proficiency level
+const skillsByProficiency = {
+    'EXPERT': [
+        { name: 'React', category: 'CORE_SYSTEMS' },
+        { name: 'TypeScript', category: 'CORE_SYSTEMS' },
+        { name: 'REST APIs', category: 'DATA_LAYER' },
+        { name: 'Node.js', category: 'CORE_SYSTEMS' },
+        { name: 'Tailwind CSS', category: 'INTERFACE' }
+    ],
+    'PROFICIENT': [
+        { name: 'Next.js', category: 'CORE_SYSTEMS' },
+        { name: 'PostgreSQL', category: 'DATA_LAYER' },
+        { name: 'MongoDB', category: 'DATA_LAYER' },
+        { name: 'Java Spring', category: 'CORE_SYSTEMS' },
+        { name: 'Docker', category: 'DEPLOYMENT' },
+        { name: 'Framer Motion', category: 'INTERFACE' }
+    ],
+    'LEARNING': [
+        { name: 'Prisma', category: 'DATA_LAYER' },
+        { name: 'Supabase', category: 'DATA_LAYER' },
+        { name: 'CI/CD', category: 'DEPLOYMENT' },
+        { name: 'Cloud Infra', category: 'DEPLOYMENT' }
+    ]
+};
 
 const skillsByCategory = {
     'CORE_SYSTEMS': ['React', 'TypeScript', 'Node.js', 'Next.js', 'Java Spring'],
@@ -90,6 +176,22 @@ function App() {
     const [sidebarOpen, setSidebarOpen] = useState(true);
     const [search, setSearch] = useState('');
     const [isMobile, setIsMobile] = useState(false);
+    const [showHelp, setShowHelp] = useState(false);
+    const [skillsView, setSkillsView] = useState<'category' | 'proficiency'>('proficiency'); // vNext: Skills view toggle
+    const [expandedProject, setExpandedProject] = useState<string | null>(null); // vNext: Project case study expansion
+
+    // vNext: Restore sidebar state from localStorage
+    useEffect(() => {
+        const savedSidebarState = localStorage.getItem('sidebar-state');
+        if (savedSidebarState !== null) {
+            setSidebarOpen(savedSidebarState === 'open');
+        }
+    }, []);
+
+    // vNext: Save sidebar state to localStorage
+    useEffect(() => {
+        localStorage.setItem('sidebar-state', sidebarOpen ? 'open' : 'closed');
+    }, [sidebarOpen]);
 
     useEffect(() => {
         const checkMobile = () => setIsMobile(window.innerWidth < 768);
@@ -101,6 +203,39 @@ function App() {
     useEffect(() => {
         if (isMobile) setSidebarOpen(false);
     }, [isMobile]);
+
+    // vNext: Keyboard shortcuts handler
+    useEffect(() => {
+        const handleKeyPress = (e: KeyboardEvent) => {
+            // Ignore if typing in search input
+            if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+                return;
+            }
+
+            const key = e.key.toLowerCase();
+
+            // Close help modal on ESC
+            if (e.key === 'Escape' && showHelp) {
+                setShowHelp(false);
+                return;
+            }
+
+            if (key === '?') {
+                e.preventDefault();
+                setShowHelp(prev => !prev);
+                return;
+            }
+
+            const sectionId = keyboardShortcuts[key];
+            if (sectionId) {
+                e.preventDefault();
+                scrollTo(sectionId);
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyPress);
+        return () => window.removeEventListener('keydown', handleKeyPress);
+    }, [showHelp]);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -169,11 +304,10 @@ function App() {
                                 <button
                                     key={item.id}
                                     onClick={() => scrollTo(item.id)}
-                                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded text-xs tracking-wider transition-all ${
-                                        activeSection === item.id
-                                            ? 'bg-cyan-500/10 text-cyan-300 border border-cyan-500/30'
-                                            : 'hover:bg-cyan-950/30 text-cyan-700 hover:text-cyan-500 border border-transparent'
-                                    }`}
+                                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded text-xs tracking-wider transition-all ${activeSection === item.id
+                                        ? 'bg-cyan-500/10 text-cyan-300 border border-cyan-500/30'
+                                        : 'hover:bg-cyan-950/30 text-cyan-700 hover:text-cyan-500 border border-transparent'
+                                        }`}
                                 >
                                     <item.icon className="w-4 h-4" />
                                     <span className="font-bold">{item.label}</span>
@@ -272,9 +406,9 @@ function App() {
                                 </h1>
 
                                 <p className="text-sm text-cyan-600 max-w-2xl leading-relaxed mb-8">
-                                    <span className="text-cyan-500">&gt;</span> FULL_STACK_DEVELOPER specializing in{' '}
-                                    <span className="text-cyan-400 font-bold">END-TO-END APPLICATIONS</span> at Wipro.
-                                    Focused on scalable architecture, REST APIs, and production-grade deployment.
+                                    <span className="text-cyan-500">&gt;</span> FULL_STACK_DEVELOPER architecting the{' '}
+                                    <span className="text-cyan-400 font-bold">AI-VIBE-ECOSYSTEM v2.0</span>.
+                                    Focused on real-time agent collaboration, scalable web builders, and multi-product sync.
                                 </p>
                             </motion.div>
 
@@ -316,8 +450,8 @@ function App() {
                                 <div className="p-5 bg-[#0a0f1a]/50 border border-cyan-500/20 rounded-lg relative overflow-hidden group">
                                     <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent"></div>
                                     <div className="relative">
-                                        <div className="text-4xl font-bold text-cyan-400 font-mono">04</div>
-                                        <div className="text-[10px] text-cyan-700 tracking-wider mt-1">ACTIVE_SYSTEMS</div>
+                                        <div className="text-4xl font-bold text-cyan-400 font-mono">05</div>
+                                        <div className="text-[10px] text-cyan-700 tracking-wider mt-1">ACTIVE_PRODUCTS</div>
                                     </div>
                                 </div>
                                 <div className="p-5 bg-[#0a0f1a]/50 border border-cyan-500/20 rounded-lg relative overflow-hidden group">
@@ -398,13 +532,12 @@ function App() {
                                                 <div className="flex-1">
                                                     <div className="flex items-center gap-2 mb-1">
                                                         <h3 className="font-bold text-cyan-400 text-sm">{product.name}</h3>
-                                                        <span className={`text-[10px] px-2 py-0.5 rounded font-bold tracking-wider ${
-                                                            product.status === 'ONLINE'
-                                                                ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-400/30'
-                                                                : product.status === 'IN DEV'
+                                                        <span className={`text-[10px] px-2 py-0.5 rounded font-bold tracking-wider ${product.status === 'ONLINE'
+                                                            ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-400/30'
+                                                            : product.status === 'IN DEV'
                                                                 ? 'bg-amber-500/20 text-amber-400 border border-amber-400/30'
                                                                 : 'bg-slate-800 text-slate-500 border border-slate-700'
-                                                        }`}>
+                                                            }`}>
                                                             {product.status}
                                                         </span>
                                                     </div>
@@ -483,21 +616,58 @@ function App() {
                                             exit={{ opacity: 0, scale: 0.95 }}
                                             transition={{ delay: index * 0.05 }}
                                             className="p-5 bg-[#0a0f1a]/30 border border-cyan-500/20 rounded-lg hover:border-cyan-400/40 transition-all cursor-pointer group relative overflow-hidden"
+                                            onClick={() => setExpandedProject(expandedProject === project.name ? null : project.name)}
                                         >
                                             <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                                             <div className="relative">
-                                                <div className="flex items-center gap-2 mb-3">
-                                                    <span className="px-2 py-1 bg-cyan-500/10 border border-cyan-400/20 text-cyan-400 rounded text-[10px] font-bold tracking-wider">
-                                                        {project.category}
-                                                    </span>
-                                                    <span className="px-2 py-1 bg-cyan-950/50 text-cyan-700 rounded text-[10px]">
-                                                        {project.tech}
-                                                    </span>
+                                                <div className="flex items-center justify-between gap-2 mb-3">
+                                                    <div className="flex items-center gap-2">
+                                                        <span className="px-2 py-1 bg-cyan-500/10 border border-cyan-400/20 text-cyan-400 rounded text-[10px] font-bold tracking-wider">
+                                                            {project.category}
+                                                        </span>
+                                                        <span className="px-2 py-1 bg-cyan-950/50 text-cyan-700 rounded text-[10px]">
+                                                            {project.tech}
+                                                        </span>
+                                                    </div>
+                                                    {/* vNext: GitHub metrics */}
+                                                    <div className="flex items-center gap-2 text-[10px] text-cyan-700">
+                                                        <span className="flex items-center gap-1">
+                                                            <span>★</span> {project.stars}
+                                                        </span>
+                                                        <span className="flex items-center gap-1">
+                                                            <span>Forks:</span> {project.forks}
+                                                        </span>
+                                                    </div>
                                                 </div>
                                                 <h3 className="font-bold text-cyan-400 mb-1 text-sm group-hover:text-cyan-300 transition-colors">
                                                     {project.name}
                                                 </h3>
                                                 <p className="text-xs text-cyan-700">{project.description}</p>
+
+                                                {/* vNext: Case study details */}
+                                                <AnimatePresence>
+                                                    {expandedProject === project.name && 'problem' in project && (
+                                                        <motion.div
+                                                            initial={{ opacity: 0, height: 0 }}
+                                                            animate={{ opacity: 1, height: 'auto' }}
+                                                            exit={{ opacity: 0, height: 0 }}
+                                                            className="mt-4 pt-4 border-t border-cyan-500/10 space-y-3"
+                                                        >
+                                                            <div>
+                                                                <span className="text-[10px] text-cyan-600 font-bold">PROBLEM:</span>
+                                                                <p className="text-xs text-cyan-700 mt-1">{project.problem}</p>
+                                                            </div>
+                                                            <div>
+                                                                <span className="text-[10px] text-cyan-600 font-bold">SOLUTION:</span>
+                                                                <p className="text-xs text-cyan-700 mt-1">{project.solution}</p>
+                                                            </div>
+                                                            <div>
+                                                                <span className="text-[10px] text-cyan-600 font-bold">OUTCOME:</span>
+                                                                <p className="text-xs text-cyan-700 mt-1">{project.outcome}</p>
+                                                            </div>
+                                                        </motion.div>
+                                                    )}
+                                                </AnimatePresence>
                                             </div>
                                         </motion.div>
                                     ))}
@@ -533,45 +703,105 @@ function App() {
                                 <Cpu className="w-5 h-5 text-cyan-400" />
                                 <h2 className="text-xl font-bold text-cyan-400 tracking-wider">// CAPABILITIES</h2>
                             </div>
-                            <p className="text-cyan-600 mb-8 text-sm">
+                            <p className="text-cyan-600 mb-6 text-sm">
                                 <span className="text-cyan-400">&gt;</span> Core competencies across all system layers.
                             </p>
 
-                            <div className="grid sm:grid-cols-2 gap-4">
-                                {Object.entries(skillsByCategory).map(([category, skills], index) => (
-                                    <motion.div
-                                        key={category}
-                                        initial={{ opacity: 0, y: 20 }}
-                                        whileInView={{ opacity: 1, y: 0 }}
-                                        transition={{ duration: 0.5, delay: index * 0.1 }}
-                                        viewport={{ once: true }}
-                                        className="p-5 bg-[#0a0f1a]/30 border border-cyan-500/20 rounded-lg"
-                                    >
-                                        <div className="flex items-center gap-2 mb-4">
-                                            {category.includes('CORE') ? (
-                                                <Cpu className="w-4 h-4 text-cyan-400" />
-                                            ) : category.includes('DATA') ? (
-                                                <Layers className="w-4 h-4 text-cyan-400" />
-                                            ) : category.includes('INTERFACE') ? (
-                                                <Zap className="w-4 h-4 text-cyan-400" />
-                                            ) : (
-                                                <Shield className="w-4 h-4 text-cyan-400" />
-                                            )}
-                                            <h3 className="font-bold text-cyan-400 text-xs tracking-wider">{category}</h3>
-                                        </div>
-                                        <div className="flex flex-wrap gap-2">
-                                            {skills.map((skill) => (
-                                                <span
-                                                    key={skill}
-                                                    className="px-3 py-1 bg-cyan-950/50 border border-cyan-500/10 text-cyan-500 rounded text-xs"
-                                                >
-                                                    {skill}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    </motion.div>
-                                ))}
+                            {/* vNext: Skills view toggle */}
+                            <div className="flex gap-2 mb-6">
+                                <button
+                                    onClick={() => setSkillsView('proficiency')}
+                                    className={`px-4 py-2 text-xs font-bold tracking-wider rounded transition-all ${skillsView === 'proficiency'
+                                        ? 'bg-cyan-500/20 border border-cyan-400/50 text-cyan-400'
+                                        : 'bg-transparent border border-cyan-700 text-cyan-700 hover:border-cyan-500'
+                                        }`}
+                                >
+                                    BY_PROFICIENCY
+                                </button>
+                                <button
+                                    onClick={() => setSkillsView('category')}
+                                    className={`px-4 py-2 text-xs font-bold tracking-wider rounded transition-all ${skillsView === 'category'
+                                        ? 'bg-cyan-500/20 border border-cyan-400/50 text-cyan-400'
+                                        : 'bg-transparent border border-cyan-700 text-cyan-700 hover:border-cyan-500'
+                                        }`}
+                                >
+                                    BY_CATEGORY
+                                </button>
                             </div>
+
+                            {skillsView === 'proficiency' ? (
+                                // vNext: Proficiency-based view
+                                <div className="grid md:grid-cols-3 gap-4">
+                                    {Object.entries(skillsByProficiency).map(([level, skillList], index) => (
+                                        <motion.div
+                                            key={level}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            transition={{ duration: 0.5, delay: index * 0.1 }}
+                                            viewport={{ once: true }}
+                                            className="p-5 bg-[#0a0f1a]/30 border border-cyan-500/20 rounded-lg"
+                                        >
+                                            <div className="flex items-center gap-2 mb-4">
+                                                <span className={`px-2 py-1 rounded text-[10px] font-bold tracking-wider ${level === 'EXPERT'
+                                                    ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-400/30'
+                                                    : level === 'PROFICIENT'
+                                                        ? 'bg-green-500/20 text-green-400 border border-green-400/30'
+                                                        : 'bg-amber-500/20 text-amber-400 border border-amber-400/30'
+                                                    }`}>
+                                                    {level}
+                                                </span>
+                                            </div>
+                                            <div className="flex flex-wrap gap-2">
+                                                {skillList.map((skill) => (
+                                                    <span
+                                                        key={skill.name}
+                                                        className="px-3 py-1 bg-cyan-950/50 border border-cyan-500/10 text-cyan-500 rounded text-xs"
+                                                    >
+                                                        {skill.name}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        </motion.div>
+                                    ))}
+                                </div>
+                            ) : (
+                                // Original category-based view
+                                <div className="grid sm:grid-cols-2 gap-4">
+                                    {Object.entries(skillsByCategory).map(([category, skills], index) => (
+                                        <motion.div
+                                            key={category}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            transition={{ duration: 0.5, delay: index * 0.1 }}
+                                            viewport={{ once: true }}
+                                            className="p-5 bg-[#0a0f1a]/30 border border-cyan-500/20 rounded-lg"
+                                        >
+                                            <div className="flex items-center gap-2 mb-4">
+                                                {category.includes('CORE') ? (
+                                                    <Cpu className="w-4 h-4 text-cyan-400" />
+                                                ) : category.includes('DATA') ? (
+                                                    <Layers className="w-4 h-4 text-cyan-400" />
+                                                ) : category.includes('INTERFACE') ? (
+                                                    <Zap className="w-4 h-4 text-cyan-400" />
+                                                ) : (
+                                                    <Shield className="w-4 h-4 text-cyan-400" />
+                                                )}
+                                                <h3 className="font-bold text-cyan-400 text-xs tracking-wider">{category}</h3>
+                                            </div>
+                                            <div className="flex flex-wrap gap-2">
+                                                {skills.map((skill) => (
+                                                    <span
+                                                        key={skill}
+                                                        className="px-3 py-1 bg-cyan-950/50 border border-cyan-500/10 text-cyan-500 rounded text-xs"
+                                                    >
+                                                        {skill}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        </motion.div>
+                                    ))}
+                                </div>
+                            )}
                         </motion.div>
                     </section>
 
@@ -805,11 +1035,58 @@ function App() {
                         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-cyan-800">
                             <p>&copy; 2025 KAZI MUSHARRAF // FULL_STACK_DEVELOPER</p>
                             <p>HYDERABAD_INDIA</p>
+                            <p className="text-cyan-900">Press <kbd className="px-1 py-0.5 bg-cyan-900/50 rounded">?</kbd> for shortcuts</p>
                         </div>
                     </footer>
                 </div>
-            </main>
-        </div>
+            </main >
+
+            {/* vNext: Keyboard shortcuts help modal */}
+            <AnimatePresence>
+                {
+                    showHelp && (
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+                            onClick={() => setShowHelp(false)}
+                        >
+                            <motion.div
+                                initial={{ scale: 0.95, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                exit={{ scale: 0.95, opacity: 0 }}
+                                onClick={(e) => e.stopPropagation()}
+                                className="bg-[#0a0f1a] border border-cyan-500/30 rounded-lg p-6 max-w-md w-full"
+                            >
+                                <div className="flex items-center justify-between mb-4">
+                                    <h3 className="font-bold text-cyan-400">KEYBOARD_COMMANDS</h3>
+                                    <button
+                                        onClick={() => setShowHelp(false)}
+                                        className="text-cyan-700 hover:text-cyan-400 transition-colors"
+                                    >
+                                        <X className="w-5 h-5" />
+                                    </button>
+                                </div>
+                                <div className="space-y-2 text-sm">
+                                    {Object.entries(keyboardShortcuts).filter(([k]) => k !== '?').map(([key, section]) => (
+                                        <div key={key} className="flex items-center justify-between text-cyan-600">
+                                            <span>{section.toUpperCase()}</span>
+                                            <kbd className="px-2 py-1 bg-cyan-950/50 border border-cyan-700 rounded text-xs text-cyan-400 font-mono">
+                                                {key}
+                                            </kbd>
+                                        </div>
+                                    ))}
+                                    <div className="pt-2 mt-2 border-t border-cyan-500/10 text-cyan-700 text-xs">
+                                        Press <kbd className="px-1 py-0.5 bg-cyan-900/50 rounded mx-1">ESC</kbd> or <kbd className="px-1 py-0.5 bg-cyan-900/50 rounded mx-1">?</kbd> to close
+                                    </div>
+                                </div>
+                            </motion.div>
+                        </motion.div>
+                    )
+                }
+            </AnimatePresence >
+        </div >
     );
 }
 

@@ -10,7 +10,9 @@
         "preview": "vite preview",
         "lint": "eslint . --ext .ts,.tsx",
         "lint:fix": "eslint . --ext .ts,.tsx --fix",
-        "type-check": "tsc --noEmit"
+        "type-check": "tsc --noEmit",
+        "deploy:gh": "gh-pages -d dist",
+        "deploy": "npm run build && npm run deploy:gh"
     },
     "keywords": [
         "portfolio",
